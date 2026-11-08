@@ -59,7 +59,7 @@
       }
     }
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "UNLICENSED",
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.55",
     "@ai-sdk/react": "^4.0.116",

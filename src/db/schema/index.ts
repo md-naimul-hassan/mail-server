@@ -916,7 +916,7 @@ export const licenseSettings = sqliteTable("license_settings", {
 		.notNull()
 		.default("inactive"),
 	features: text("features").notNull().default("[]"),
-	// Account seats from Paymug's seatLimit; null is unlimited. Rows predating seats keep one.
+	// Retained for migration compatibility; licensing was removed from the app.
 	seatLimit: integer("seat_limit").default(1),
 	activatedAt: timestamp("activated_at"),
 	validatedAt: timestamp("validated_at"),
